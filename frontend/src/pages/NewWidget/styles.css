@@ -1,0 +1,7 @@
+h4 {
+  color: red;
+}
+
+.ui.form input[type='text']:focus {
+  border: 1px solid #f15922;
+}

@@ -1,0 +1,32 @@
+.navbar {
+  margin-bottom: 20px;
+}
+
+.ui.segment {
+  border-radius: 0;
+  /* border-bottom: 1px solid #f15922; */
+  margin-bottom: 1em;
+}
+
+.ui.input > input:focus {
+  border: 1px solid #f15922;
+}
+
+.navbar-brand {
+  position: relative;
+  height: 38px;
+}
+
+.ui.header > .image:not(.icon),
+.ui.header > img {
+  width: 6em;
+}
+
+.ui.segment {
+  padding: 1em 2em 0.5em 2.5em;
+}
+
+/* input::selection {
+  background-color: orange !important;
+  color: rgba(0, 0, 0, 0.87);
+} */

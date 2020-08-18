@@ -1,0 +1,16 @@
+.card {
+  border-radius: 0;
+  margin-bottom: 20px;
+}
+
+.ui.card > .content > .header {
+  display: flex;
+  justify-content: space-between;
+  /* color: #495057; */
+}
+
+.ui.pointing.dropdown > .menu:after {
+  /* top: -.25em; */
+  left: 85%;
+  /* margin: 0 0 0 -.25em; */
+}
