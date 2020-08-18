@@ -1,54 +1,58 @@
 # Desafio Front-end Delfosim
-> Desafio para ingressar como Front-end Developer na Delfosim em Fortaleza-CE
+> Desafio para ingressar como Front-end Developer na Delfosim em Fortaleza-CE.<br>
+Brevemente, trata-se de um dasboard de gráficos onde o usuário pode listar, criar, editar, deletar os gráficos (highcharts).
+Você pode encontrar uma pequena demonstração em vídeo dentro do arquivo [delfosim.zip](.github).
 
-## Sobre o desafio
-Não será passado prazo para entrega, verifique os pré-requisitos e nos dê seu prazo, mas fique atento pois vamos avaliar mais rigorosamente seu código quanto mais demorar para entregar a partir da data em que foi feito o fork desse repositório. A ideia é simples, você terá que desenvolver (com dados falsos) seguindo os pré-requisitos e o seguinte layout:
+## Construído com:
 
-![Desafio](images/tela-01.png?raw=true "Desafio")
+- react (^16.13.1)
+- yarn (1.22.4)
+- react-router-dom (^5.2.0)
+- semantic-ui-css (^2.4.1)
+- semantic-ui-react (^1.2.0)
+- eslint (6.8.0)
+- prettier (^2.0.5)
+- axios (^0.19.2)
+- highcharts (^8.1.2)
+- json-server (^0.16.1)
+- etc...
 
-## Ações
-- O usuário deve ser capaz de incluir um novo widget(Gráfico), editar e remover
-- No momento da inclusão desse widget o usuário deve fornecer os valores falsos e na edição o mesmo deve alterar os valores cadastrados
-- Todos esses widgets devem ser listados no Dashboard
+## Como instalar e rodar localmente :computer:</strong>:
 
+<strong>1. Clonar o projeto e instalar as dependências:</strong>
 
-## Pré requisitos
-- ReactJS
-- Utilize desses UI Frameworks ([Bootstrap](https://react-bootstrap.github.io/), [Semantic](https://react.semantic-ui.com/) ou [Material](https://material-ui.com/pt/))
-- Documentar como rodamos servidor do projeto no README.MD
+```
+$ git clone https://github.com/jvictor-am/frontend-test-01.git
+$ cd frontend-test-01
+$ cd backend && yarn install
+$ cd ..
+$ cd frontend && yarn install
+```
 
-## Dicas
-- React Router
-- Highcharts
+<strong>2. Rodar localmente:</strong>
+<br>
+ - Abrir dois terminais nas pastas backend e frontend (1 para subir "backend/servidor" json-server e 1 para rodar frontend).
+ - Em cada um dos terminais, digitar:
+ 
+```
+$ yarn start
+```
 
-## Diferenciais
-- Código bem escrito e documentado
-- Arquivos pequenos com poucas responsabilidades
-- Redux
-- Boa usabilidade
-- Feedback para o usuário no carregamento da consulta
-- Layout flexível (Flexbox)
-- Utilizar as novas features do ECMA
+## :framed_picture: :computer: Imagens
 
-## Pronto para começar o desafio?
-- Faça um "fork" desse repositório na sua conta do Github
-- Crie uma branch com o seu nome e sobrenome ex: ```lucas-franca```
-- Após completar o desafio, crie um "pull request" nesse repositório comparando a sua branch com a master
-- Receberemos uma notificação do seu pull request, faremos a correção da sua solução e entraremos em contato com o email da conta do github em que foi executada o desafio
+<h3 align="center">
+  
+<img src=".github/dashboard.png" width="900"  alt="dashboard">
+<img src=".github/newWidget.png" width="900"  alt="newWidget">
 
-## FAQ
-- Posso usar o create-react-app para completar o desafio?
+</h3>
 
-**Sim, você pode usar qualquer cli para criar seu projeto**
+<br>
 
-- Preciso necessariamente fazer um fork do projeto?
+---
 
-**Sim, para que possamos saber quanto tempo você levou para executar o desafio**
+[<p align="center">**João Victor**</p>](https://www.linkedin.com/in/jo%C3%A3o-victor-de-andrade-mesquita-848a09122/)
 
-- Aonde estão os assets?
-
-**Esse desafio não te dá nenhum asset, você terá que buscá-los por conta própria**
-
-- Tenho mais dúvidas, com quem posso entrar em contato?
-
-**Entre em contato com André Oliveira (andre.oliveira@delfosim.com)**
+<h2 align="center">
+  Thank You!
+</h2>
