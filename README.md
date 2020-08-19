@@ -1,6 +1,6 @@
 # Desafio Front-end Delfosim
 > Desafio para ingressar como Front-end Developer na Delfosim em Fortaleza-CE.<br>
-Brevemente, trata-se de um dasboard de gráficos onde o usuário pode listar, criar, editar, deletar os gráficos (highcharts).
+Brevemente, trata-se de um dashboard de gráficos onde o usuário pode listar, criar, editar, deletar os gráficos (highcharts).
 Você pode encontrar uma pequena demonstração em vídeo dentro do arquivo [delfosim.zip](.github).
 
 ## Construído com:
@@ -22,7 +22,7 @@ Você pode encontrar uma pequena demonstração em vídeo dentro do arquivo [del
 <strong>1. Clonar o projeto e instalar as dependências:</strong>
 
 ```
-$ git clone https://github.com/jvictor-am/frontend-test-01.git
+$ git clone -b joao-victor https://github.com/jvictor-am/frontend-test-01.git
 $ cd frontend-test-01
 $ cd backend && yarn install
 $ cd ..
